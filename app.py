@@ -20,27 +20,27 @@ PATHS = {
 }
 
 LOCATION_CLUES = {
-    1: "(Zone A) place of origin",
+    1: "(Zone A) I am from the nearest north entrance. Where the modern technology I find dead, to the first left turn to be. Find the red. Enter. Don’t stop. Keep walking. Another left and there I will find you.",
     2: "(Zone B) To find what you seek, go first to where the northern gate is near. There, a silent guardian sits forever still, a figure forged in metal upon a towering chair, keeping its unseeing watch.\n Not far from his unblinking gaze stands an abandoned sentinel, whose lights have long gone dark, its interior once stocked with travel-sized comforts for weary travelers. Now it stands as a relic, its purpose faded, marking the edge of a secluded and shadowy space. \n Venture behind this relic of commerce, and you will find a miniature wilderness. Here, the world grows dense and shadowy, a secluded patch where trees and tangled bushes conspire to guard their secrets from the casual eye. Let your gaze climb the trunks and branches above, or scour the hidden nooks and fallen debris below, for your objective awaits.",
-    3: "(Zone C) Uneven wings guarding the heaven", 
-    4: "(Zone D) A family of deer’s statue near the hut \n On the night of the full moon, they gather still in a silent toon \n The herd doesn’t flee, stick together forever and ever \n No footprints - only shadows \n Where the wilderness kiss a cabin \n A family stays together and the time is under it",
-    5: "(Zone E) I begin at the \033[1mGrand Welcome\033[0m, where SISC greets its guests. To find my start, ignore the crowd and pivot \033[1msharply left\033[0m into the territory coded \033[1m"E"\033[0m. \n You must first find the \033[1mnearest place of relief\033[0m within this grand receiving area, for that spot marks your true beginning. \n From there, I lead you away from the plaza's light, climbing the **stone steps\033[0m into the quiet shadow. I continue uphill through the darkness, until the only sight left is the weathered glass of a \033[1mhumble, solitary shack.\033[0m"""
+    3: "(Zone C) Uneven wings guarding the heaven \n how to answer : case 1 - 1st word 2nd word ", 
+    4: "(Zone D) On the night of the full moon, they gather still in a silent toon \n The herd doesn’t flee, stick together forever and ever \n No footprints - only shadows \n Where the wilderness kiss a cabin \n A family stays together and the time is under it \n how to answer : 'time' am",
+    5: "(Zone E) I begin at the \033[1mGrand Welcome\033[0m, where SISC greets its guests. To find my start, ignore the crowd and pivot \033[1msharply left\033[0m into the territory coded \033[1m 'E' \033[0m. \n You must first find the \033[1mnearest place of relief\033[0m within this grand receiving area, for that spot marks your true beginning. \n From there, I lead you away from the plaza's light, climbing the \033[1mstone steps\033[0m into the quiet shadow. I continue uphill through the darkness, until the only sight left is the weathered glass of a \033[1mhumble, solitary shack.\033[0m \n how to answer: clue 1, clue 2, clue 3"
 }
 
 ANSWERS = {
     1: ["romania"],
-    2: ["765 years", "765 tahun"],
-    3: ["rusty nail to the heart", "paku di jantung"],
-    4: ["6:26 am", "6:26"],
-    5: ["3 symbols", "3 simbol"]
+    2: ["765"],
+    3: ["heart - rusty nail"],
+    4: ["6:26 am", "6:26", "6.26", "6.26 am"],
+    5: ["inverted pentagram, inverted, 666"]
 }
 
 ALPHABET_CLUES = {
-    1: "one dips, two rise \n its peaks stained with silence \n worn by none, yet seen by all \n T rflco esp ales \n shift 11",
-    2: "It devours its own flesh, \n yet is never gone.\n a perfect ring of death \n L iroorz wkh ohdg \n shift 3", 
-    3: "it stood proud, half of it torn \n one leg breaks free running from the body \n mark of a rebellion \n N ibjqq ns ymj rniiqj \n shift 5",
-    4: "never walk straight \n cuts in sudden turns \n never steady, never kind \n R udat jc nwm \n shift 9",
-    5: "Two must stand as one, \n back never meeting eyes. \n lift a foot to touch the other's \n P zlhs aol ahsl \n shift 7"
+    1: "one dips, two rise \n rflco \n shift 11",
+    2: "a perfect ring of death \n ohdg \n shift 3", 
+    3: "it stood proud, half of it torn \n one leg breaks free running from the body \n mark of a Rebellion \n rniiqj \n shift 5",
+    4: "never walk straight \n cuts in sudden turns \n udat nwm \n shift 9",
+    5: "First born of the 26th \n zlhs \n shift 7"
 }
 
 FINAL_WORD = "MORZA"
