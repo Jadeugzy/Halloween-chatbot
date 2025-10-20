@@ -29,17 +29,17 @@ LOCATION_CLUES = {
 ANSWERS = {
     1: ["romania"],
     2: ["765", "765 years"],
-    3: ["heart - rusty nail"],
-    4: ["6:26 am", "6:26", "6.26", "6.26 am"],
+    3: ["heart - rusty nail","heart-rusty nail"],
+    4: ["6:26 am", "6:26", "6.26", "6.26 am","06:26 am", "06:26", "06.26", "06.26 am"],
     5: ["inverted pentagram, inverted, 666"]
 }
 
 ALPHABET_CLUES = {
-    1: "one dips, two rise (rflco shift 11)",
-    2: "a perfect ring of death (ohdg shift 3)", 
-    3: "it stood proud, half of it torn one leg breaks free running from the body mark of a Rebellion (rniiqj shift 5)",
-    4: "never walk straight, cuts in sudden turns (udat nwm shift 9)",
-    5: "First born of the 26th (zlhs shift 7)"
+    1: "one dips, two rise (wplo shift 11)",
+    2: "a perfect ring of death (ylfh shift 3)", 
+    3: "it stood proud, half of it torn one leg breaks free running from the body mark of a Rebellion (hzfywt shift 5)",
+    4: "lightning Zaps, thunder roars (rniiqj shift 9)",
+    5: "First born of the 26th (cjru shift 7)"
 }
 
 FINAL_WORD = "MORZA"
