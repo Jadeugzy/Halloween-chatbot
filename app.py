@@ -21,7 +21,7 @@ PATHS = {
 LOCATION_CLUES = {
     1: "(Zone A) I am from the nearest north entrance. Where the modern technology I find dead, to the first left turn to be. Find the red. Enter. Don’t stop. Keep walking. Another left and there I will find you.",
     2: "(Zone B) To find what you seek, go first to where the northern gate is near. There, a silent guardian sits forever still, a figure forged in metal upon a towering chair, keeping its unseeing watch. Not far from his unblinking gaze stands an abandoned sentinel, whose lights have long gone dark, its interior once stocked with travel-sized comforts for weary travelers. Now it stands as a relic, its purpose faded, marking the edge of a secluded and shadowy space. Venture behind this relic of commerce, and you will find a miniature wilderness. Here, the world grows dense and shadowy, a secluded patch where trees and tangled bushes conspire to guard their secrets from the casual eye. Let your gaze climb the trunks and branches above, or scour the hidden nooks and fallen debris below, for your objective awaits.",
-    3: "(Zone C) seek for the crowd where uneven spirits guarding the heaven's gates, standing by the holy place. It's where the silence hides the truth. How to answer : case 1 - 1st word 2nd word ", 
+    3: "(Zone C) seek for the crowd where uneven spirits guarding the heaven's gates, standing by the holy place. It's where the silence hides the truth. How to answer : case 1 - 1st word (space) 2nd word ", 
     4: "(Zone D) On the night of the full moon, they gather still in a silent toon. The herd doesn’t flee, stick together forever and ever. No footprints - only shadows. Where the wilderness kiss a cabin. A family stays together and the time is under it. How to answer : 'hour:minutes' am",
     5: "(Zone E) I begin at the Grand Welcome, where SISC greets its guests. To find my start, ignore the crowd and pivot sharply left into the territory coded 'E'. You must first find the nearest place of relief within this grand receiving area, for that spot marks your true beginning. From there, I lead you away from the plaza's light, climbing the stone steps into the quiet shadow. I continue uphill through the darkness, until the only sight left is the weathered glass of a humble, solitary shack. How to answer: clue 1, clue 2, clue 3"
 }
@@ -29,7 +29,7 @@ LOCATION_CLUES = {
 ANSWERS = {
     1: ["romania"],
     2: ["765", "765 years"],
-    3: ["heart - rusty nail","heart-rusty nail"],
+    3: ["heart - rusty nail","heart-rusty nail","heart - rust nail","heart-rust nail"],
     4: ["6:26 am", "6:26", "6.26", "6.26 am","06:26 am", "06:26", "06.26", "06.26 am"],
     5: ["inverted pentagram, inverted, 666"]
 }
