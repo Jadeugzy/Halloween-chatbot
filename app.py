@@ -6,16 +6,16 @@ CORS(app)
 app.secret_key = "game-secret-key-12345"
 
 PATHS = {
-    "conjuring": [1, 2, 3, 4, 5],
-    "insidious": [1, 3, 4, 5, 2],
-    "the shining": [2, 1, 5, 3, 4],
-    "the exorcist": [2, 4, 1, 5, 3],
-    "the ring": [3, 2, 1, 4, 5],
-    "poltergeist": [3, 5, 2, 1, 4],
-    "sinister": [4, 3, 5, 2, 1],
-    "scream": [4, 5, 3, 1, 2],
-    "evil dead": [5, 4, 2, 3, 1],
-    "the grudge": [5, 1, 4, 2, 3]
+    "conjuring": [1, 2, 3, 5, 4],
+    "insidious": [1, 4, 5, 3, 2],
+    "the shining": [2, 3, 5, 4, 1],
+    "the exorcist": [2, 1, 4, 5, 3],
+    "the ring": [3, 5, 4, 1, 2],
+    "poltergeist": [3, 2, 1, 4, 5],
+    "sinister": [4, 1, 2, 3, 5],
+    "scream": [4, 5, 3, 2, 1],
+    "evil dead": [5, 4, 1, 2, 3],
+    "the grudge": [5, 3, 2, 1, 4]
 }
 
 LOCATION_CLUES = {
